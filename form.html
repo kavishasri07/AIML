@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Event Registration Form</h1>
+    <form>
+        <label for="name">Full Name:</label>
+        <br>
+        <input name="fullname" placeholder="Enter your full name" type="text" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <br>
+        <input name="email" placeholder="Enter your Email" type="email" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <br>
+        <input name="password" placeholder="Enter your password" type="password" required>
+        <br><br>
+        <label for="gender">Gender:</label>
+        <br>
+        <input type="radio" id="male" name="male" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="female" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="other" value="Other">
+        <label for="other">Other</label>
+        <br><br>
+        <label for="interests">Interests:</label>
+        <br>
+        <input type="checkbox" name="ai" value="AI">AI
+        <input type="checkbox" name="Web Development" value="AI">Web Development
+        <input type="checkbox" name="Data Scienece" value="AI">Data Scienece
+        <br><br>
+        <label for="experience">Experience Level:</label>
+        <br>
+        <select>
+            <option>Select your level</option>
+        </select>
+        <br><br>
+        <label for="session">Favorite Session:</label>
+        <br>
+        <input list="session" name="session" id="session">
+        <datalist id="session">
+            <option value="Morning">
+            <option value="Afternoon">
+            <option value="Evening">
+            <option value="Night">
+        </datalist>
+        <br><br>
+        <label for="about">About Yourself</label>
+        <br>
+        <textarea placeholder="Tell us about yourself" rows="4"></textarea>
+        <br><br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
