@@ -1,0 +1,25 @@
+.shopping {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #F5F5F0;
+}
+
+.box {
+    height: 480px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+}
+
+.image {
+    height: 400px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.image:hover {
+    cursor: pointer;
+}
